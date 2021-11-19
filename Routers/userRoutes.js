@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const userController = require("../controllers/userController");
+
 const upload=require('../utils/multer');
 const cloudinary=require('../utils/cloudinary');
 const User = require('../models/user');
